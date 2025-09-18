@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo con Actualización desde GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Catálogo con Actualización desde GitHub</h1>
+            <div class="update-section">
+                <button id="update-btn" class="btn">🔄 Actualizar Catálogo</button>
+                <div class="last-update">Última actualización: <span id="last-update-time">Cargando...</span></div>
+            </div>
+        </header>
+        
+        <div id="loading" class="loading">
+            Actualizando información desde GitHub...
+        </div>
+        
+        <div id="products-container" class="products-grid">
+            <!-- Los productos se cargarán aquí mediante JavaScript -->
+        </div>
+
+        <div class="instructions">
+            <h2>📝 Instrucciones para actualizar el catálogo</h2>
+            <p>Para actualizar los productos, precios y disponibilidad:</p>
+            <ol>
+                <li>Edita el archivo <strong>data.json</strong> en tu repositorio de GitHub</li>
+                <li>Guarda los cambios</li>
+                <li>Los clientes harán clic en "Actualizar Catálogo" para ver los cambios</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div id="notification" class="notification">
+        ¡Catálogo actualizado correctamente!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "ultima_actualizacion": "2023-11-15 10:30:00",
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Zapatillas Deportivas",
+      "precio": 89.99,
+      "stock": 15,
+      "imagen": "https://i.imgur.com/5jYX6fK.jpeg",
+      "descripcion": "Ideales para running y entrenamiento"
+    },
+    {
+      "id": 2,
+      "nombre": "Auriculares Bluetooth",
+      "precio": 59.99,
+      "stock": 8,
+      "imagen": "https://i.imgur.com/7QkMh8c.jpeg",
+      "descripcion": "Sonido de alta calidad con cancelación de ruido"
+    },
+    {
+      "id": 3,
+      "nombre": "Smartwatch",
+      "precio": 129.99,
+      "stock": 0,
+      "imagen": "https://i.imgur.com/3K2E1gY.jpeg",
+      "descripcion": "Monitoriza tu actividad física y notificaciones"
+    },
+    {
+      "id": 4,
+      "nombre": "Mochila Impermeable",
+      "precio": 45.50,
+      "stock": 22,
+      "imagen": "https://i.imgur.com/9q4hWzJ.jpeg",
+      "descripcion": "Resistente al agua con múltiples compartimentos"
+    },
+    {
+      "id": 5,
+      "nombre": "Cámara Digital",
+      "precio": 249.99,
+      "stock": 5,
+      "imagen": "https://i.imgur.com/2G5hQaC.jpeg",
+      "descripcion": "20MP con zoom óptico 10x y grabación 4K"
+    },
+    {
+      "id": 6,
+      "nombre": "Altavoz Portátil",
+      "precio": 75.00,
+      "stock": 14,
+      "imagen": "https://i.imgur.com/vWn6c3Z.jpeg",
+      "descripcion": "Sonido envolvente con batería de 12 horas"
+    }
+  ]
+}
